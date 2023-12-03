@@ -1,0 +1,16 @@
+a {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffff;
+    border: 1px solid hsla(225, 57%, 97%, 0.2);
+    padding: 16px 48px;
+    border-radius: 41px;
+    transition: 0.4s;
+}
+
+a:hover {
+    background: #ffff;
+    color: #1C1E53;
+}
