@@ -1,0 +1,44 @@
+.work {
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+
+.work .left {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.work .left .title p {
+    color: #282938;
+    width: 405px;
+    margin-top: 16px;
+}
+
+.work .right {
+    width: 50%;
+}
+
+.work .right .box {
+    flex-wrap: wrap;
+}
+
+/* .work .right .box .item {
+    width: 50%;
+    margin-bottom: 48px;
+} */
+
+/* .work .right .box .item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: 32px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.work .right .box .item p {
+    font-family: 'Poppins', sans-serif;
+    font-style: 16px;
+    font-weight: 400;
+    color: #282938;
+    width: 303px;
+} */
