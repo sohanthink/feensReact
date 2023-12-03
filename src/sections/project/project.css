@@ -1,0 +1,115 @@
+.project {
+    margin-top: 128px;
+    margin-bottom: 96px;
+}
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.project .box {
+    justify-content: space-between;
+}
+
+.project .title a {
+    color: #282938;
+}
+
+.project .leftimg {
+    width: 843px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project .leftimg .overlay {
+    width: 47%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: 0;
+    left: -47%;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+}
+
+.project .leftimg .overlay .text {
+    width: 100%;
+    height: 50%;
+    padding: 0 48px;
+}
+
+.project .leftimg .overlay .text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.project .leftimg .overlay .text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    margin-top: 16px;
+}
+
+.project .leftimg .overlay .text .titlebtn {
+    color: #FCD980;
+    padding-top: 40px;
+}
+
+.project .leftimg:hover .overlay {
+    left: 0;
+}
+
+.project .rightimg {
+    width: 405px;
+}
+
+.project .rightimg .imgbox {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.project .rightimg .smalloverlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+}
+
+.project .rightimg .smalloverlay .text {
+    width: 100%;
+    height: 50%;
+    padding: 0 48px;
+}
+
+.project .rightimg .smalloverlay .text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+    color: #ffff;
+    width: 200px;
+}
+
+.project .rightimg .smalloverlay .text .titlebtn {
+    color: #FCD980;
+    padding-top: 14px;
+}
+
+.project .rightimg .imgbox:hover .smalloverlay {
+    top: 0;
+}
+
+.project .mt {
+    margin-top: 64px;
+}
