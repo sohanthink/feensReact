@@ -4,6 +4,7 @@ import Paragraph from '../../components/Paragraph'
 import ProjectItem from '../../components/projectitem/ProjectItem'
 import Image from '../../components/Image'
 import "./project.css"
+import HeadingTwo from '../../components/HeadingTwo'
 
 const Project = () => {
     return (
@@ -12,7 +13,7 @@ const Project = () => {
                 <div className="box">
                     <div className="left">
                         <div className="title">
-                            <h2>View our projects</h2>
+                            <HeadingTwo content="View our projects" />
                         </div>
                     </div>
                     <div className="right">

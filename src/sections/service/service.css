@@ -1,0 +1,55 @@
+.service {
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+
+.service .title {
+    text-align: center;
+}
+
+.service .title p {
+    color: #282938;
+}
+
+.service .title h2 {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.service .box {
+    margin-top: 47px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+
+.service .box .item {
+    width: 32%;
+    background: #ffff;
+    padding: 58px 32px 48px 48px;
+    box-sizing: border-box;
+}
+
+.service .box .item i {
+    font-size: 32px;
+    color: #2405F2;
+}
+
+.service .box .item h2 {
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+
+.service .box .item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    width: 324px;
+}

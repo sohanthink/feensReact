@@ -4,6 +4,7 @@ import Navbar from './sections/navbar/Navbar'
 import Banner from './sections/banner/Banner'
 import Work from './sections/work/Work'
 import Project from './sections/project/Project'
+import Service from './sections/service/Service'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Work />
       <Project />
+      <Service />
     </>
   )
 }
