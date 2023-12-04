@@ -1,0 +1,111 @@
+.inquiry .left {
+    width: 50%;
+    background: url("../images/inquiry/photo1.png");
+}
+
+.inquiry .container .left .layout {
+    width: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    padding: 96px;
+}
+
+.inquiry .left .layout h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 464px;
+}
+
+.inquiry .left .layout p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 464px;
+    margin-top: 24px;
+    margin-bottom: 165px;
+}
+
+.inquiry .right {
+    width: 50%;
+    background: #1C1E53;
+    padding: 96px;
+    padding-bottom: 0;
+}
+
+.inquiry .right h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 432px;
+}
+
+.inquiry .right p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+    width: 432px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.inquiry .right input {
+    width: 432px;
+    padding: 18px 32px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    margin-top: 16px;
+}
+
+.inquiry .right input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.inquiry .right input:first-child {
+    margin-top: 0;
+}
+
+.inquiry .right button {
+    width: 100%;
+    padding: 18px 32px;
+    border-radius: 41px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: #FCD980;
+    margin-top: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 39px;
+    margin-bottom: 28px;
+}
+
+.inquiry .right .getmorebtn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 100%;
+
+}
+
+.inquiry .right .getmorebtn i {
+    margin-left: 16px;
+}
+
+.inquiry .right .getmore {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+.client {
+    background: #f4f6fcab;
+    padding: 128px 0;
+}
+
+.client .left {
+    width: 35%;
+}
+
+.client .left h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 327px;
+    color: #282938;
+}
+
+.client .left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 327px;
+    color: #282938;
+}
+
+.client .right {
+    width: 65%;
+}
+
+.client .box .right h5 {
+    width: 843px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+}
+
+.client .clientinfo {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.client .clientinfo .clientleft {
+    width: 50%;
+    position: relative;
+    padding-left: 65px;
+}
+
+.client .clientinfo .clientleft img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.client .clientinfo .clientleft h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+
+.client .clientinfo .clientleft p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.client .clientinfo .clientright {
+    width: 50%;
+    text-align: right;
+}
+
+.client .clientinfo .clientright i {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-left: 10px;
+    background: #ffff;
+    text-align: center;
+    line-height: 48px;
+    color: #282938;
+    transition: 0.4s;
+}
+
+.client .clientinfo .clientright i:hover {
+    background: #5239FA;
+    color: #ffff;
+}

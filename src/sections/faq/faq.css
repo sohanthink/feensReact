@@ -1,0 +1,71 @@
+.faq {
+    padding-top: 128px;
+    padding-bottom: 80px;
+}
+
+.faq .box .leftfaq {
+    width: 35%;
+}
+
+.faq .box .leftfaq h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+    width: 328px;
+}
+
+.faq .box .leftfaq p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+}
+
+.faq .box .rightfaq {
+    width: 65%;
+}
+
+.faq .box .rightfaq .holder h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.faq .box .rightfaq .holder p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+    width: 624px;
+    margin-left: 77px;
+}
+
+.faq .box .rightfaq .holder span {
+    margin-right: 53px;
+    color: #2405F2;
+}
+
+.faq .box .rightfaq .holder h2 i {
+    position: absolute;
+    font-size: 16px;
+    top: 11px;
+    right: 0;
+    color: rgba(40, 41, 56, 0.7);
+}
+
+.faq .box .rightfaq .holder .bb {
+    border-bottom: 1px solid #ECECF1;
+    padding-bottom: 32px;
+}
+
+.faq .box .rightfaq .holder {
+    padding-bottom: 48px;
+}

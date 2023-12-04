@@ -5,6 +5,9 @@ import Banner from './sections/banner/Banner'
 import Work from './sections/work/Work'
 import Project from './sections/project/Project'
 import Service from './sections/service/Service'
+import Client from './sections/client/Client'
+import Faq from './sections/faq/faq'
+import Inquiry from './sections/inquiry/Inquiry'
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
       <Work />
       <Project />
       <Service />
+      <Client />
+      <Faq />
+      <Inquiry />
     </>
   )
 }
